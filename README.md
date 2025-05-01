@@ -30,3 +30,11 @@ using a and the standard estimation of beta b.
 - Plot differences (RS j – R j ) and (RF j – R j ) on y-axis against
 - SIC code groupings on x-axis (i.e., plot the differences by industry groupings).
 - [First-digit SIC codes will yield 10 groups ‘0’ through ‘9’. Using two-digit SIC codes – if we can fit them on the x-axis – will provide about 83 groups]
+
+Python Notebook Guide:
+
+autosearch: Intakes DJIA 10Ks and outputs .csv file with complexity word counts for every firm from 2012-2021
+funddata: Intakes fundamental accounting variables from CCM and merges with Beta/Price/Return DataFrame (need retprc & sprtrn .csv files for beta calculation), then outputs combined .csv file
+finalmerge: Loads the previous .csv files created for further analysis
+
+Data can be found here: https://drive.google.com/drive/folders/1odY6iixbBp0mGhqyNei-n10uW3BxIZkm?usp=drive_link
